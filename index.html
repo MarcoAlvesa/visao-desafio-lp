@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Clarice Starling Psicologa</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="custom-logo" src="./img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Serviços">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contatos">Contatos</a>
+                    </li>
+                </ul>
+
+                <!-- Darkmode -->
+                <input type="checkbox" class="checkbox" id="chk" />
+
+                <label class="label d-flex" for="chk">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+
+                <script src="script.js"></script>
+                <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+                <!-- fim Darkmode-->
+            </div>
+        </div>
+    </nav>
+    <!-- Fim da Navegação -->
+
+    <!-- Carrosel -->
+
+    <header>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" width: 50%; style="background-image: url('./img/slide1.png')">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+                <div class="carousel-item" width: 50%; style="background-image: url('./img/slide2.png')">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+                <div class="carousel-item" width: 50%; style="background-image: url('./img/slide3.png')">
+                    <div class="carousel-caption">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span> 
+          </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </header>
+
+    <!-- Fim do Carrosel -->
+    <br><br><br>
+    <div class="container">
+        <hr class="featurette-divider">
+    </div>
+
+    <!-- Sobre mim -->
+
+    <br id="sobre"><br>
+    <div class="container">
+        <div class="row featurette">
+            <div class="col-md-7">
+
+                <h1 class="display-4 fw-normal">Sobre mim</h1>
+                <h2 class="featurette-heading">“Ao tocar uma alma humana, seja apenas outra alma humana” </h2>
+                <p class="lead">Me chamo Clarisse Starling, sou formada em psicologia na Universidade Federal de Minas Gerais (UFMG), atuo com a abordagem Terapia Cognitiva-Comportamental (TCC), tenho como foco ação e resolução de problemas, como também proponho que
+                    há uma relação entre o pensamento a emoção e o comportamento do indivíduo. <br><br> O foco da minha atuação clínica são as demandas com ansiedade, depressão, relacionamentos, estresse, luto e transtornos de personalidade. Através da
+                    minha abordagem auxílio você na identificação de pensamentos, crenças e comportamentos disfuncionais, a fim de modifica-los para uma melhor relação consigo e com os outros. <br><br> Ofereço um espaço de acolhimento e reflexão, com
+                    escuta adequada buscando o melhor para você! Vamos embarcar nessa juntos?</p>
+            </div>
+            <div class="col-md-5">
+                <img src="./img/sobremim.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Fim do Sobre mim-->
+    <br><br>
+    <div class="container">
+        <hr class="featurette-divider">
+    </div>
+    <!-- Serviços -->
+    <br id="Serviços"><br>
+    <div class="container">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h1 class="display-4 fw-normal">Serviços</h1>
+                <h2 class="featurette-heading">Terapia cognitiva comportamental. <span class="text-muted">Quais os beneficios?</span></h2>
+                <p class="lead">A Terapia Cognitivo Comportamental ou TCC é uma abordagem da psicoterapia baseada na combinação de conceitos do Behaviorismo radical com teorias cognitivas. <br><br> A TCC entende a forma como o ser humano interpreta os acontecimentos
+                    como aquilo que nos afeta, e não os acontecimentos em si.
+                    <br><br> Essa abordagem é bastante específica, clara e direta. É utilizada para tratar diversos transtornos mentais de forma eficiente. Seu objetivo principal é identificar padrões de comportamento, pensamento, crenças e hábitos que
+                    estão na origem dos problemas, indicando, a partir disso, técnicas para alterar essas percepções de forma positiva.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="./img/serviços.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Fim dos serviços-->
+
+    <br><br>
+    <div class="container">
+        <hr class="featurette-divider">
+    </div>
+    <br><br>
+
+    <!-- Contatos -->
+
+    <div id="Contatos" class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Contatos</h1><br><br>
+    </div>
+
+    <div class="container">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" src="./img/wpp.png" alt="">
+
+                    <h2>Whats app</h2>
+                    <p><a class="btn btn-secondary" target="_blank" href="https://api.whatsapp.com/send?phone=55999999999999&text=Ol%C3%A1%2C%20tudo%20bem%3F">Veja mais!</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" src="./img/insta.png" alt="">
+
+                    <h2>Instagram</h2>
+                    <p><a class="btn btn-secondary" target="_blank" href="https://www.instagram.com">Veja mais!</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" src="./img/email.png" alt="">
+
+                    <h2>E-mail</h2>
+                    <p><a class="btn btn-secondary" target="_blank" href="mailto:drclarissestarling@gmail.com">Veja mais!</a></p>
+                    <br><br><br><br><br>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+        </div>
+    </div>
+    <!-- Fim do Contatos-->
+
+    <footer class="footer" id="footer">
+        <div class="container-fluid pr-5 pl-5">
+            <div class="row">
+                <div class="col-md-11 col-sm-11">
+                    <div class="footer-left">
+                        <p>Desenvolvido com <span class="coracao-footer">❤</span> por <a target="_blank" href="http://www.visaojr.com.br/">Visão
+                    Tecnologia e Sistemas.</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-1 col-sm-1">
+                    <a class="visao-logo-footer" href="http://www.visaojr.com.br/" title="Acessar o site da Visão" target="_blank"><img src="./img/visaologofooter.png"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
